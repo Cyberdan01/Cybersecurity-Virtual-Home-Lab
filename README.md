@@ -15,34 +15,64 @@ The project consists of a walkthrough setting up my cybersecurity home lab, whic
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+Virtual Machines Deployed
+1. Kali Linux
+Purpose: Offensive Security / Penetration Testing
+
+Tools Installed: Nmap, Burp Suite, Metasploit, Wireshark, John the Ripper, etc.
+
+Use Case: Actively used to exploit vulnerabilities on target VMs (e.g., Metasploitable) and simulate red team tactics.
+
+Network Mode: Host-only / Bridged (configurable)
+
+2. Metasploitable 2
+Purpose: Vulnerable Target System
+
+Description: Intentionally vulnerable Ubuntu-based Linux VM used to simulate common misconfigurations and vulnerabilities.
+
+Use Case: Targets for testing exploits, vulnerability scanning, and privilege escalation.
+
+Network Mode: Host-only
+
+3. Flare VM
+Purpose: Malware Analysis and Reverse Engineering
+
+OS: Windows 10 (with FLARE VM toolkit installed)
+
+Tools Included: IDA Free, x64dbg, PEStudio, Wireshark, Sysinternals Suite, etc.
+
+Use Case: Static and dynamic analysis of malware in an isolated sandbox.
+
+Network Mode: NAT (with internet access), sometimes Host-only for isolated tests
+
+4. Wazuh Manager
+Purpose: Security Information and Event Management (SIEM)
+
+OS: Ubuntu Server
+
+Use Case: Collects logs and monitors agents (e.g., Ubuntu/Kali) for security events, rule-based alerts, file integrity monitoring.
+
+Components Installed: Wazuh Manager, Elasticsearch, Kibana
+
+Network Mode: Host-only (for isolated testing) or Bridged (for real traffic)
+
+5. Ubuntu Linux (Client VM)
+Purpose: General-purpose target system
+
+Use Case: Simulates a real user workstation or server. Can be configured as a Wazuh agent or hardening practice target.
+
+Additions: OpenSSH, UFW, Apache2
+
+Network Mode: Host-only / Bridged
+
+Network Configuration
+Host-Only Network: Used to ensure all VM traffic remains isolated from the public internet. Ideal for testing exploits and payloads.
+
+Bridged Network (optional): Used for update access or communication with host when needed.
+
+Custom Static IPs: Assigned to VMs for easy identification and consistent testing.
+
+
 
 <!--
  ```diff
