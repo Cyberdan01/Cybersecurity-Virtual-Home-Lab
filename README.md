@@ -1,18 +1,17 @@
 <h1>Cybersecurity Virtual Home Lab</h1>
 
 <h2>Description</h2>
-Project consists a walk through setting up my cybersecurity home lab, consisting of Kali Linux, Metasploitable, Ubuntu Server (Wazuh), Ubuntu Desktop, and Flare VM.  This lab aimed at studying and gaining hands-on experience for cybersecurity certifications like, CCNA, Network+, A+, Security+, etc.
+The project consists of a walkthrough setting up my cybersecurity home lab, which includes Kali Linux, Metasploitable, Ubuntu Server (Wazuh), Ubuntu Desktop, and Flare VM. This home lab was designed as a controlled environment to explore real-world cybersecurity scenarios, simulate attacks and defenses, and analyze network behavior. VMware Workstation was used as the virtualization platform to host a set of virtual machines (VMs) commonly used in penetration testing, malware analysis, threat detection, and system hardening.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Diskpart</b>
 
 <h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
+- <b>VMware Workstation</b> (21H2)
+- <b>Purpose: Practical learning, testing, and simulation of offensive and defensive security techniques.</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
