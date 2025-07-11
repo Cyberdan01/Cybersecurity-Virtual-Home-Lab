@@ -10,13 +10,13 @@ The project consists of a walkthrough setting up my cybersecurity home lab, whic
 - PowerShell
 
 <h2>Environments Used </h2>
-- <b>VMware Workstation</b> (21H2)
-- <b>Purpose: Practical learning, testing, and simulation of offensive and defensive security techniques.</b> (21H2)
+- VMware Workstation (21H2)
+- Purpose: Practical learning, testing, and simulation of offensive and defensive security techniques. (21H2)
 
 <h2>Program walk-through:</h2>
 
 - <b>Virtual Machines Deployed</b>
-1. <b>Kali Linux<b/>
+1. <h>Kali Linux<h1/>
        <b>Purpose:<b/> Offensive Security / Penetration Testing
 
       <b>Tools Installed:<b/> Nmap, Burp Suite, Metasploit, Wireshark, John the Ripper, etc.
