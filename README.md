@@ -16,14 +16,14 @@ The project consists of a walkthrough setting up my cybersecurity home lab, whic
 <h2>Program walk-through:</h2>
 
 - <b>Virtual Machines Deployed</b>
-1. Kali Linux
-   Purpose: Offensive Security / Penetration Testing
+1. <b>Kali Linux<b/>
+   - Purpose: Offensive Security / Penetration Testing
 
-   Tools Installed: Nmap, Burp Suite, Metasploit, Wireshark, John the Ripper, etc.
+   - Tools Installed: Nmap, Burp Suite, Metasploit, Wireshark, John the Ripper, etc.
 
-   Use Case: Actively used to exploit vulnerabilities on target VMs (e.g., Metasploitable) and simulate red team tactics.
+   - Use Case: Actively used to exploit vulnerabilities on target VMs (e.g., Metasploitable) and simulate red team tactics.
 
-   Network Mode: Host-only / Bridged (configurable)
+   - Network Mode: Host-only / Bridged (configurable)
 
 2. <b>Metasploitable<b/>
       <b>Purpose:<b/> Vulnerable Target System
