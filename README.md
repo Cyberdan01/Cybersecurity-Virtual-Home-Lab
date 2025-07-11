@@ -26,51 +26,51 @@ The project consists of a walkthrough setting up my cybersecurity home lab, whic
    - Network Mode: Host-only / Bridged (configurable)
 
 2. <b>Metasploitable<b/>
-      <b>Purpose:<b/> Vulnerable Target System
+   - Purpose: Vulnerable Target System
 
-      <b>Description:<b/> Intentionally vulnerable Ubuntu-based Linux VM used to simulate common misconfigurations and vulnerabilities.
+   - Description: Intentionally vulnerable Ubuntu-based Linux VM used to simulate common misconfigurations and vulnerabilities.
 
-      Use Case: Targets for testing exploits, vulnerability scanning, and privilege escalation.
+   - Use Case: Targets for testing exploits, vulnerability scanning, and privilege escalation.
 
-      Network Mode: Host-only
+   - Network Mode: Host-only
 
-3. Flare VM
-   Purpose: Malware Analysis and Reverse Engineering
+3. <b>Flare VM<b/>
+   - Purpose: Malware Analysis and Reverse Engineering
 
-   OS: Windows 10 (with FLARE VM toolkit installed)
+   - OS: Windows 10 (with FLARE VM toolkit installed)
 
-   Tools Included: IDA Free, x64dbg, PEStudio, Wireshark, Sysinternals Suite, etc.
+   - Tools Included: IDA Free, x64dbg, PEStudio, Wireshark, Sysinternals Suite, etc.
 
-   Use Case: Static and dynamic analysis of malware in an isolated sandbox.
+   - Use Case: Static and dynamic analysis of malware in an isolated sandbox.
 
-   Network Mode: NAT (with internet access), sometimes Host-only for isolated tests
+   - Network Mode: NAT (with internet access), sometimes Host-only for isolated tests
 
-4. Wazuh Manager
-   Purpose: Security Information and Event Management (SIEM)
+4. <b>Wazuh Manager<b/>
+   - Purpose: Security Information and Event Management (SIEM)
 
-   OS: Ubuntu Server
+   - OS: Ubuntu Server
 
-   Use Case: Collects logs and monitors agents (e.g., Ubuntu/Kali) for security events, rule-based alerts, file integrity monitoring.
+   - Use Case: Collects logs and monitors agents (e.g., Ubuntu/Kali) for security events, rule-based alerts, and file integrity monitoring.
 
-   Components Installed: Wazuh Manager
+   - Components Installed: Wazuh Manager
 
-   Network Mode: Host-only (for isolated testing) or Bridged (for real traffic)
+   - Network Mode: Host-only (for isolated testing) or Bridged (for real traffic)
 
-5. Ubuntu Linux (Client VM)
-   Purpose: General-purpose target system
+5. <b>Ubuntu Linux (Client VM)<b/>
+   - Purpose: General-purpose target system
 
-   Use Case: Simulates a real user workstation or server. Can be configured as a Wazuh agent or hardening practice target.
+   - Use Case: Simulates a real user workstation or server. Can be configured as a Wazuh agent or hardening practice target.
 
-   Additions: OpenSSH, UFW, Apache2
+   - Additions: OpenSSH, UFW, Apache2
 
-   Network Mode: Host-only / Bridged
+   - Network Mode: Host-only / Bridged
 
-   Network Configuration
-   Host-Only Network: Used to ensure all VM traffic remains isolated from the public internet. Ideal for testing exploits and payloads.
+   @@<b>Network Configuration<b/>@@
+   - Host-Only Network: Used to ensure all VM traffic remains isolated from the public internet. Ideal for testing exploits and payloads.
 
-   Bridged Network (optional): Used for update access or communication with host when needed.
+   - Bridged Network (optional): Used for update access or communication with the host when needed.
 
-   Custom Static IPs: Assigned to VMs for easy identification and consistent testing.
+   - Custom Static IPs: Assigned to VMs for easy identification and consistent testing.
 
 
 
