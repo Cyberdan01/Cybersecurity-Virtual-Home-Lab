@@ -16,7 +16,7 @@ The project consists of a walkthrough setting up my cybersecurity home lab, whic
 <h2>Program walk-through:</h2>
 
 - <b>Virtual Machines Deployed</b>
-1. <h>Kali Linux<h1/>
+1. Kali Linux
        <b>Purpose:<b/> Offensive Security / Penetration Testing
 
       <b>Tools Installed:<b/> Nmap, Burp Suite, Metasploit, Wireshark, John the Ripper, etc.
