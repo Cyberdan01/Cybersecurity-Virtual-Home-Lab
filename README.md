@@ -65,7 +65,7 @@ The project consists of a walkthrough setting up my cybersecurity home lab, whic
 
    - Network Mode: Host-only / Bridged
 
-   @@ <b>Network Configuration<b/> @@
+    <b>Network Configuration<b/>
    - Host-Only Network: Used to ensure all VM traffic remains isolated from the public internet. Ideal for testing exploits and payloads.
 
    - Bridged Network (optional): Used for update access or communication with the host when needed.
