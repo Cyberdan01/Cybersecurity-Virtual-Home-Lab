@@ -7,7 +7,7 @@ The project consists of a walkthrough setting up my cybersecurity home lab, whic
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
+- <b>PowerShell<br/> 
 
 <h2>Environments Used </h2>
 - <b>VMware Workstation</b> (21H2)
