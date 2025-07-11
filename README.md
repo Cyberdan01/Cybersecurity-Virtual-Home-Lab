@@ -16,23 +16,23 @@ The project consists of a walkthrough setting up my cybersecurity home lab, whic
 <h2>Program walk-through:</h2>
 
 - <b>Virtual Machines Deployed</b>
-1. <b>Kali Linux</>
-      Purpose: Offensive Security / Penetration Testing
+1. <b>Kali Linux<b/>
+       <b>Purpose:<b/> Offensive Security / Penetration Testing
 
-      Tools Installed: Nmap, Burp Suite, Metasploit, Wireshark, John the Ripper, etc.
+      <b>Tools Installed:<b/> Nmap, Burp Suite, Metasploit, Wireshark, John the Ripper, etc.
 
-      Use Case: Actively used to exploit vulnerabilities on target VMs (e.g., Metasploitable) and simulate red team tactics.
+      <b>Use Case:<b/> Actively used to exploit vulnerabilities on target VMs (e.g., Metasploitable) and simulate red team tactics.
 
-      Network Mode: Host-only / Bridged (configurable)
+      <b>Network Mode:<b/> Host-only / Bridged (configurable)
 
-2. Metasploitable 2
-Purpose: Vulnerable Target System
+2. <b>Metasploitable<b/>
+      <b>Purpose:<b/> Vulnerable Target System
 
-Description: Intentionally vulnerable Ubuntu-based Linux VM used to simulate common misconfigurations and vulnerabilities.
+      <b>Description:<b/> Intentionally vulnerable Ubuntu-based Linux VM used to simulate common misconfigurations and vulnerabilities.
 
-Use Case: Targets for testing exploits, vulnerability scanning, and privilege escalation.
+      Use Case: Targets for testing exploits, vulnerability scanning, and privilege escalation.
 
-Network Mode: Host-only
+      Network Mode: Host-only
 
 3. Flare VM
 Purpose: Malware Analysis and Reverse Engineering
